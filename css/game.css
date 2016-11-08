@@ -1,0 +1,39 @@
+.background    { background-image: url("https://s-media-cache-ak0.pinimg.com/236x/cc/28/4c/cc284c4a55fe34f9b2d44085f37b7ff2.jpg");
+    			 background-size: 100%100%;
+    			 background-position: center; 
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url("http://www.dundjinni.com/forums/uploads/Cryogenes/891_Lava.jpg");
+				background-size: 100%100%; }
+.wall          { background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/35a15322044493.5630bb2650c43.png");
+				 background-size: 100%100%  }
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(241, 229, 89);
+			background-image: url("https://s-media-cache-ak0.pinimg.com/564x/96/4c/f1/964cf112c8928c7c75312f7f15e6b1e0.jpg");
+			background-size:100%100%;
+ }
+.player { background-image: url("http://vignette2.wikia.nocookie.net/freddy-fazbears-pizza/images/f/f2/Fredbearcostume.png/revision/latest/scale-to-width-down/141?cb=20150728225820&format=webp");
+			background-size: 100%100%;
+		}
+.projectile{ background: rgb(255, 100, 80);}
+.warp{background-image: url("http://i.imgur.com/pMLmJ.png");
+		background-size: 100%100%;}
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+body{
+    font-family: "Arial";
+    font-size: 24px;
+    color:black;
+}
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
